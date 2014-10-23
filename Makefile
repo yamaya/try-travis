@@ -1,5 +1,5 @@
-PROGRAM = consa
-OBJS = consa.o
+PROGRAM = main
+OBJS = main.o
 SRCS = $(OBJS:.o=.c)
 
 all: $(PROGRAM)
