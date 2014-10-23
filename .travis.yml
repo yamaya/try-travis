@@ -1,4 +1,4 @@
-language: objective-c
+language: c
 script: make
 notifications:
   email: false

@@ -1,3 +1,5 @@
-all:
-	@echo 'hi!'
-	exit 1
+PROGRAM = consa
+OBJS = consa.o
+SRCS = $(OBJS:.o=.c)
+
+all: $(PROGRAM)
